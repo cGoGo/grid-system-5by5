@@ -39,7 +39,6 @@ nav a {
 	padding: 10px 15px;
 	color: #eee;
 	text-shadow: 2px 2px 4px #000;
-	font-family: Arial;
 }
 
 nav a:hover {
@@ -47,6 +46,10 @@ nav a:hover {
 }
 
 /*Primera Seccion*/
+.h2LastEp {
+	display: inline;
+}
+
 .sectionUp {
 	padding: 15px 0;
 	margin: 0;
@@ -56,4 +59,28 @@ nav a:hover {
 
 .imgSectionUp {
 	width: 100%;
+}
+
+/* Seccion del cuerpo e imagenes pequeñas*/
+.sectionMed {
+	padding: 15px 0;
+	margin: 0;
+}
+
+.containerLittleImg {
+	width: 18%;
+	display: inline-block;
+}
+
+.littleImg {
+	width: 100%;
+}
+
+/*Sidebar*/
+.icon {
+	width: 12px;
+	margin: 0 10px;
+}
+.linkSidebar {
+	display: inline-block;
 }
