@@ -1,3 +1,14 @@
+* {
+	font-family: Arial;
+	text-decoration: none;
+}
+
+div a {
+	color: #369;
+}
+h3 {
+	color: #333;
+}
 /*Header y menu*/
 header {
 	padding: 15px 0;
@@ -35,7 +46,6 @@ nav li:hover a {
 }
 
 nav a {
-	text-decoration: none;
 	padding: 10px 15px;
 	color: #eee;
 	text-shadow: 2px 2px 4px #000;
@@ -46,10 +56,7 @@ nav a:hover {
 }
 
 /*Primera Seccion*/
-.h2LastEp {
-	display: inline;
-}
-
+/* Link para Latest Episodes */
 .sectionUp {
 	padding: 15px 0;
 	margin: 0;
@@ -57,6 +64,26 @@ nav a:hover {
 	background: #E6E6E6;
 }
 
+.h3LastEp {
+	display: inline-block;
+	margin: 10px 4px 20px 0;
+}
+.more {
+	font-size: 12px;
+}
+
+/* Imagenes de la primera seccion*/
+
+.enlacenuevo {
+	text-align: center;
+}
+
+.enlacenuevo img{
+	display: block;
+	padding: 4px;
+	border: 1px solid #BDBDBD;
+	margin-bottom: 5px;
+}
 .imgSectionUp {
 	width: 100%;
 }
@@ -68,15 +95,24 @@ nav a:hover {
 }
 
 .containerLittleImg {
-	width: 18%;
+	width: 16%;
 	display: inline-block;
+	margin: 0 20px 20px 0;
+	text-align: center;
 }
 
 .littleImg {
 	width: 100%;
+	display: block;
+	padding: 4px;
+	border: 1px solid #BDBDBD;
 }
 
-/*Sidebar*/
+.containerLittleImg h5 {
+	display: block;
+}
+
+/* Sidebar */
 .icon {
 	width: 12px;
 	margin: 0 10px;
